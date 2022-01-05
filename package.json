@@ -1,0 +1,24 @@
+{
+  "name": "express-qrcodegen",
+  "version": "1.0.0",
+  "description": "An express based, QR code generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattseemon/express-qrcodegen.git"
+  },
+  "author": "Matt Seemon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattseemon/express-qrcodegen/issues"
+  },
+  "homepage": "https://github.com/mattseemon/express-qrcodegen#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "qrcode": "^1.5.0"
+  }
+}
